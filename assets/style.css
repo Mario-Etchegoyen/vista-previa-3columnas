@@ -68,11 +68,10 @@ main {
 }
 
 p {
-  margin: -1.5dvw 3dvw 2dvw;
+  margin: -3dvw 3dvw 2dvw;
   font-size: 1dvw;
   color: hsla(0, 0%, 100%, 0.75);
   margin-bottom: 4.5dvw;
-
 }
 
 .suv {
@@ -91,12 +90,29 @@ p {
 
 button {
   padding: 1dvw;
-  border: none;
+  border: 0.3dvh solid hsl(0, 0%, 95%);
   border-radius: 1.5625rem;
-  font-size: 0.8dvw;
+  font-size: 1dvw;
   margin-left: 3dvw;
   margin-bottom: 3dvw;
-  font-weight: boldER;
-  width: 50%;
-  color: initial;
+  width: 45%;
+  font-family: Lexend Deca;
+}
+
+button:hover {
+  background-color: transparent;
+  color: hsl(0, 0%, 95%);
+  transition-property: all;
+}
+
+.naranja {
+  color: hsl(31, 77%, 52%);
+}
+
+.verde-medio {
+  color: hsl(184, 100%, 22%);
+}
+
+.verde-oscuro {
+  color: hsl(179, 100%, 13%);
 }
