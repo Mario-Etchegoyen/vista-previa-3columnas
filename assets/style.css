@@ -1,0 +1,102 @@
+/*
+
+### Primary Bright orange: hsl(31, 77%, 52%)
+Dark cyan: hsl(184, 100%, 22%)
+Very dark cyan: hsl(179, 100%, 13%)
+
+### Neutral Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
+Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
+
+*/
+
+
+
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  margin: 0;
+  background-color: hsl(0, 0%, 95%);
+  width: 100dvw;
+  height: 70%;
+  /* color: hsl(0, 0%, 95%); */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -40%);
+  font-family: Lexend Deca;
+  font-weight: 400;
+}
+
+main {
+  display: inline-flex;
+  justify-content: center;
+}
+
+.sedan {
+  background-color: hsl(31, 77%, 52%);
+  width: 20%;
+  height: auto;
+  border-top-left-radius: .375rem;
+  border-bottom-left-radius: .375rem;
+  color: hsl(31, 77%, 52%);
+}
+
+.logos {
+  margin-left: 3dvw;
+  margin-top: 3dvw;
+  width: 20%;
+  height: auto;
+}
+
+.titulos {
+  margin-top: 2dvw;
+  margin-left: 3dvw;
+  font-family: Big Shoulders Display;
+  font-weight: 700;
+  font-size: 3dvw;
+  text-transform: uppercase;
+  color: hsl(0, 0%, 95%);
+}
+
+p {
+  margin: -1.5dvw 3dvw 2dvw;
+  font-size: 1dvw;
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-bottom: 4.5dvw;
+
+}
+
+.suv {
+  background-color: hsl(184, 100%, 22%);
+  width: 20%;
+  height: auto;
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  width: 20%;
+  height: auto;
+  border-top-right-radius: .375rem;
+  border-bottom-right-radius: .375rem;
+}
+
+button {
+  padding: 1dvw;
+  border: none;
+  border-radius: 1.5625rem;
+  font-size: 0.8dvw;
+  margin-left: 3dvw;
+  margin-bottom: 3dvw;
+  font-weight: boldER;
+  width: 50%;
+  color: initial;
+}
