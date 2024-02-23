@@ -26,8 +26,7 @@ body {
   margin: 0;
   background-color: hsl(0, 0%, 95%);
   width: 100dvw;
-  height: 70%;
-  /* color: hsl(0, 0%, 95%); */
+  height: auto;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -97,6 +96,7 @@ button {
   margin-bottom: 3dvw;
   width: 45%;
   font-family: Lexend Deca;
+  color: inherit;
 }
 
 button:hover {
@@ -105,14 +105,70 @@ button:hover {
   transition-property: all;
 }
 
-.naranja {
-  color: hsl(31, 77%, 52%);
-}
 
-.verde-medio {
-  color: hsl(184, 100%, 22%);
-}
+/* -------------- 375px -------------------- */
 
-.verde-oscuro {
-  color: hsl(179, 100%, 13%);
+@media(max-width: 375px) {
+  body {
+    transform: translate(-50%, -50%);
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sedan {
+    width: 80%;
+    /* height: auto; */
+    border-top-left-radius: .375rem;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: .375rem;
+  }
+
+  .logos {
+    margin-left: 10dvw;
+    margin-top: 11dvw;
+    width: 15%;
+  }
+
+  .titulos {
+    margin-top: 2.7dvh;
+    margin-left: 10dvw;
+    font-size: 8dvw;
+  }
+
+  p {
+    margin: 3dvh 10dvw 2dvh;
+    font-size: 4dvw;
+  }
+
+  .suv {
+    background-color: hsl(184, 100%, 22%);
+    width: 80%;
+    height: auto;
+  }
+
+  .luxury {
+    background-color: hsl(179, 100%, 13%);
+    width: 80%;
+    height: auto;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: .375rem;
+    border-bottom-left-radius: .375rem;
+  }
+
+  button {
+    padding: 0.7dvh;
+
+    border-radius: 1.5625rem;
+    font-size: 3.5dvw;
+    margin-top: 0dvh;
+    margin-left: 10dvw;
+    margin-bottom: 3dvh;
+    width: 45%;
+    font-family: Lexend Deca;
+  }
 }
